@@ -3,7 +3,7 @@ pipeline {
     agent { 
         docker { 
             image 'python:3.10.7-alpine'
-                args '-v "C:/Users/Tony Lundén/.jenkins/workspace/Jenkinstest_main/":/c/DevOps/Jenkins/workspaceJenkinstest_main/'
+                args '-v "C:/Users/Tony Lundén/.jenkins/workspace/Jenkinstest_main/":/c/DevOps/'
                } 
           }
     stages {
